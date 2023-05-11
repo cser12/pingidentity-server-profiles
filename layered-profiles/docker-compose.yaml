@@ -2,7 +2,7 @@ version: "3.1"
 
 services:
   pingfederate:
-    image: pingidentity/pingfederate:${PING_IDENTITY_DEVOPS_TAG}
+    image: pingidentity/pingfederate:~/.pingidentity/config
     environment:
       # **** SERVER PROFILES BEGIN ****
       # Server Profile - Product License
